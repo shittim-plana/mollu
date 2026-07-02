@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = ["crates/mollu-engine", "crates/mollu-lang"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license-file = "LICENSE"
+repository = "https://github.com/shittim-plana/mollu"

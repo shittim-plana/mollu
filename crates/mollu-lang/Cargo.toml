@@ -1,0 +1,17 @@
+[package]
+name = "mollu-lang"
+description = "The mollu language: unified grammar for part declaration, assembly, and bodies (LALRPOP)"
+version.workspace = true
+edition.workspace = true
+license-file.workspace = true
+repository.workspace = true
+
+[dependencies]
+mollu-engine = { path = "../mollu-engine" }
+regex = "1"
+thiserror = "2"
+
+# LALRPOP은 문법 스케치 확정 후 활성화한다 (PARTS-SYSTEM.md §10 OPEN:
+# "전용 문법의 구체 설계 — 문법 스케치, lexer 모드, 에러 진단 전략").
+# [build-dependencies]
+# lalrpop = "0.22"
