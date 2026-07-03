@@ -1,5 +1,7 @@
 # mollu
 
+[![License: Custom](https://img.shields.io/badge/License-Custom-blue.svg)](./LICENSE)
+
 **capability-sandboxed, block-based composition engine** — 부품 조립 키트 방식의
 IR 파이프라인 엔진과, 부품을 기술하는 전용 언어.
 
@@ -27,4 +29,5 @@ IR 파이프라인 엔진과, 부품을 기술하는 전용 언어.
 
 ## License
 
-mollu License — attribution + no-sell + share-alike ([LICENSE](LICENSE))
+[Custom License](./LICENSE) © 2026 shittim-plana  
+Commercial use requires prior permission. See [LICENSE](./LICENSE) for details.
